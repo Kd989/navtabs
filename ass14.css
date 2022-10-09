@@ -1,0 +1,100 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 300;
+    color: #8b8b92;
+}
+
+
+h3 {
+    line-height: 1.5;
+    color: #404044;
+    font-weight: 400;
+    font-family: "Playfair Display", Georgia, serif;
+}
+
+
+.tabdiv {
+    display: none;
+}
+
+.flex-main {
+    display: flex;
+    justify-content:center;
+    
+
+}
+
+.menu_main{
+    margin-top: 100px;
+}
+.row{
+    margin-left: 50px;
+}
+
+
+.container {
+    width: 100%;
+    height: fit-content;
+
+}
+
+.maindiv {
+    display: flex;
+    justify-content: center;
+}
+
+
+.btn {
+    /* background: #ff6138; */
+    color: gray;
+    box-shadow: 0 4px 18px -12px rgb(0 0 0 / 75%);
+    margin-left: 4px;
+    margin-right: 4px;
+    padding: 20px 30px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+}
+
+.col-1 .bx1 .menu-img {
+    margin-right: 20px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+.bx1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 18px -12px rgb(0 0 0);
+}
+
+.info {
+    display: flex;
+    align-items: center;
+
+}
+
+.info .one-fort {
+    text-align: right;
+    margin-left: 40px;
+}
+
+.one-fort .price {
+    font-size: 30px;
+    color: #404044;
+    line-height: 1.4;
+}
